@@ -118,11 +118,11 @@ nav a:hover {
     font-size: 32px;
 }
 
-.video-box {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+.video-box iframe {
+    width: 350px;
+    height: 200px;
+    border: none;
+    border-radius: 15px;
 }
 
 .video-box iframe {
