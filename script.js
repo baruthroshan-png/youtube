@@ -8,6 +8,6 @@ let counter = setInterval(() => {
 
     if (count >= target) {
         clearInterval(counter);
-        document.getElementById("subs").innerText = "1M+";
+        document.getElementById("subs").innerText = "57K+";
     }
 }, 30);
